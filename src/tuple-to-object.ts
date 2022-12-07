@@ -25,8 +25,6 @@ type TupleToObject<T extends readonly (number | string)[]> = {
     [K in T[number]]: K
 }
 
-type a = PropertyKey;
-
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
 
